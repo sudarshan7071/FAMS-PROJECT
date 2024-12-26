@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.d-flex{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+.container-nav {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 1320px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0px;
+  
+}
+
+.navbar {
+    margin: 0px 26px;
+    height: 80px !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    padding: 0px 10px;
+}
+
+.nav {
+    display: flex;
+   
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav1 {
+    display: flex;
+    
+    align-items: center;
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+}
+
+.one {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #f7444e;
+    font-family: "Montserrat", serif;
+  
+}
+
+.menu1 {
+    display: flex;
+    gap: 20px;
+    justify-items: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 20px ;
+}
+
+.two {
+    color: #131313;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.menu3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+.fa-magnifying-glass {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 45px 0px;
+    text-transform: capitalize;
+}
+
+.fa-cart-shopping {
+    display: flex;
+    justify-content: end;
+    color: #131313;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 45px 0px;
+    text-transform: capitalize;
+}
+  
+a{
+    text-decoration: none;
+}
+
+.fa-bars{
+    display: none !important;
+}
+
+.fa-magnifying-glass{
+    color: #131313;
+}
+
+
+
+
+
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.d-flex{
+    display: flex;
+}
+.j-center{
+    justify-content: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-end{
+    justify-content: end;
+}
+.align-center{
+    align-items: center;
+}
+.align-star{
+    align-items: start;
+}
+
+.d-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 700;
+    color: black;
+}
+.menu{
+    padding: 10px;
+}
+
+.menu button{
+     font-size: 30px;
+     border: none;
+     background-color: transparent;
+}
+
+
+
+.main_banner{
+    padding: 90px 0px;
+    background-image: url(https://technext.github.io/famms/images/slider-bg.jpg);
+    background-size: cover;
+
+}
+
+.main_banner h1{
+    font-size:50px;
+}
+
+.main_banner h1::first-line{
+    color: tomato;
+}
+
+.main_banner button{
+    display: block;
+    margin-top:50px;
+    padding: 20px;
+    background-color: tomato;
+    color: white;
+}
+
+
+.main_slider .slick-dots{
+    width: fit-content !important;
+    bottom: -75px !important;
+    left: 100px;
+}
+
+.main_slider .slick-dots li button:before{
+   color: white !important;
+   font-size: 20px !important;
+}
+
+ .main_slider .slick-dots li.slick-active button:before{
+    color: tomato !important;
+    font-size: 25px !important;
+}
